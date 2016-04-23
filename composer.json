@@ -18,7 +18,9 @@
         }
     },
     "require": {
-        "symfony/http-kernel": "3.0.*"
+        "symfony/http-kernel": "3.0.*",
+        "ciscaja/uhsa-userbundle": "1.0.*"
+
     },
     "require-dev": {
         "symfony/framework-bundle": "3.0.*",
@@ -26,9 +28,17 @@
         "phpunit/phpunit": "5.3.*",
         "doctrine/orm": "^2.5",
         "doctrine/doctrine-bundle": "^1.6",
-        "doctrine/doctrine-fixtures-bundle": "2.2.*"
+        "doctrine/doctrine-fixtures-bundle": "2.2.*",
+        "ciscaja/uhsa-userbundle": "1.0.*"
     },
     "config": {
         "bin-dir": "bin/"
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
