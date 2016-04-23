@@ -1,0 +1,13 @@
+framework:
+    secret: "Three can keep a secret, if two of them are dead."
+
+doctrine:
+    dbal:
+        driver:  pdo_sqlite
+        user:    test
+        path:    %kernel.root_dir%/sqlite.db.cache
+        charset:  UTF8
+    orm:
+        auto_generate_proxy_classes: "%kernel.debug%"
+        naming_strategy: doctrine.orm.naming_strategy.underscore
+        auto_mapping: true

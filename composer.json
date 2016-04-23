@@ -1,0 +1,34 @@
+{
+    "name": "ciscaja/uhsa-corebundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor J. C. Geyer",
+            "email": "victor@geyer.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ciscaja\\Uhsa\\CoreBundle\\": "src/Ciscaja/Uhsa/CoreBundle/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ciscaja\\Uhsa\\CoreBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "symfony/http-kernel": "3.0.*"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "3.0.*",
+        "symfony/console": "3.0.*",
+        "phpunit/phpunit": "5.3.*",
+        "doctrine/orm": "^2.5",
+        "doctrine/doctrine-bundle": "^1.6",
+        "doctrine/doctrine-fixtures-bundle": "2.2.*"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
